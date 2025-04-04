@@ -7,14 +7,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class AddUser {
+public class Two {
 
 	public static void main(String[] args) {
-
-		
 		WebDriver driver = new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(30));
 		// open application
